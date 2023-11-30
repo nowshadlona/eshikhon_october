@@ -17,12 +17,13 @@
 
 
 list_1 = ['ab', 'cd', 'ef']
+list_2 = []
+sum = 0
 
-as_ci = []
-for i in list_1:
-    sum = 0
-    for j in i:
-        asci = ord(j)
+for row in list_1:
+    
+    for colm in row:
+        asci = ord(colm)
         sum = sum+asci
-    as_ci.append(asci)
-print(as_ci)
+    list_2.append(sum)
+print(list_2)
